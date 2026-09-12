@@ -1,0 +1,22 @@
+name: lemsa_core_kit_example
+description: Minimal smoke example for lemsa_core_kit.
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ^3.7.2
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lemsa_core_kit:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^9.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,12 @@
+---
+description: Session rules for lemsa_core_kit package work
+alwaysApply: true
+---
+
+# lemsa_core_kit
+
+- Public API only via `lib/lemsa_core_kit.dart`.
+- No message field on `AppFailure`. No empty catches.
+- No dio / supabase / firebase / drift / riverpod / auto_route / slang deps.
+- Use `fvm flutter` / `fvm dart` (pin 3.35.7). Never upgrade the shared Flutter SDK.
+- Do not start page_kit or input_kit unless the user asks.

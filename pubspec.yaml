@@ -1,0 +1,39 @@
+name: lemsa_core_kit
+description: >
+  Shared primitives for the Lemsa Flutter family: AppFailure, Result,
+  Disposables, Change, AppReporter, AppLogger, and pure extensions.
+version: 0.0.1
+homepage: https://github.com/fodilfliti/lemsa_core_kit
+repository: https://github.com/fodilfliti/lemsa_core_kit
+issue_tracker: https://github.com/fodilfliti/lemsa_core_kit/issues
+documentation: https://github.com/fodilfliti/lemsa_core_kit#readme
+
+environment:
+  sdk: ^3.7.2
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^9.0.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+topics:
+  - failures
+  - result
+  - extensions
+  - logging
+  - flutter
+
+flutter:
